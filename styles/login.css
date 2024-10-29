@@ -1,0 +1,68 @@
+.bi{
+    vertical-align: -.125em;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+main {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 90px;
+    width: 300px; /* Ancho fijo */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+
+    color: #333; /* Color del texto */
+}
+
+.input-group {
+    margin-bottom: 15px; /* Espacio entre campos */
+    padding: 0 3rem 0 3rem;
+}
+
+.form-control {
+    border: 1px solid #ccc; /* Bordes grises */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+    padding: 10px; /* Espaciado interno */
+    transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+.form-control:focus {
+    border-color: #4caf50; /* Color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Sombra al enfocar */
+    outline: none; /* Quitar contorno */
+}
+
+.btn {
+    width: 50%; /* Botón ocupa todo el ancho */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #4caf50; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Color más oscuro al pasar el ratón */
+}
+
+.input-group-text {
+    background-color: #f4f4f4; /* Fondo gris claro para el ícono */
+    border: 1px solid #ccc; /* Bordes grises */
+    border-radius: 4px 0 0 4px; /* Bordes redondeados solo en un lado */
+}

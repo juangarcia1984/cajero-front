@@ -1,0 +1,10 @@
+.sidebar {
+    position: fixed;
+    /*top: 56px;  Ajusta según el tamaño de tu navbar */
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    height: calc(100%);
+    padding: 20px 0;
+    background-color: #6b6b6b;
+}
